@@ -138,15 +138,3 @@ curl -X POST "http://localhost:8000/api/v1/generate/preview" \
 ### `GET /api/v1/health`
 
 Verifica o status da API e de seus serviços dependentes (renderizador e conexão com S3).
-
-## Demonstração Online
-
-Uma versão de demonstração da API está temporariamente disponível no seguinte endpoint:
-
-**URL da API**: `https://8000-i79thelrkskxuk28mk8eg-4e85f9b9.us1.manus.computer`
-
-Você pode usar esta URL para testar os endpoints diretamente. Por exemplo, para acessar a documentação interativa, visite:
-
-[https://8000-i79thelrkskxuk28mk8eg-4e85f9b9.us1.manus.computer/docs](https://8000-i79thelrkskxuk28mk8eg-4e85f9b9.us1.manus.computer/docs)
-
-**Observação**: Este endpoint é temporário e será desativado. Para uso contínuo, siga as instruções de deploy local com Docker.
